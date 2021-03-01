@@ -12,8 +12,8 @@ https://t9jt3myad3.execute-api.eu-west-2.amazonaws.com/api/old-games
 
 Using React Router create 2 paths:
 
-"/" - this should list the games, the code from Lesson Task 2
-"/game/:slug" - this will display a single game
+- "/" - this should list the games, the code from Lesson Task 2
+- "/game/:slug" - this will display a single game
 
 Wrap each result on the home page in a link. This should link to the `game` page with the slug property in the URL, e.g. `/game/capitalism-2`
 
