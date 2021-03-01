@@ -23,4 +23,4 @@ Use a Spinner component as a loading indicator.
 
 Use an Alert component to display any errors.
 
-Display the name, release date and rating properties. Render the screenshots array in a carousel (image slider).
+Display the name, release date and rating properties. Display the screenshots array in a carousel (image slider) - use the `map` methed on the screenshots array.
