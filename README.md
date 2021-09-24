@@ -5,8 +5,10 @@ Build on your answer from Lesson Task 2 for this task.
 The base API URL:
 
 ```
-https://t9jt3myad3.execute-api.eu-west-2.amazonaws.com/api/old-games
+https://api.rawg.io/api/games
 ```
+
+Get your own API key for the RAWG API, or use `?key=54582cd735a340b89b17702eae51578b`
 
 ---
 

@@ -4,6 +4,7 @@ import Badge from "react-bootstrap/Badge";
 import Loader from "../layout/Loader";
 import ErrorMessage from "../layout/ErrorMessage";
 import { API } from "../../constants/api";
+import { KEY } from "../../constants/api";
 import ScreenshotSlider from "./ScreenshotSlider";
 
 function GameDetail() {
@@ -19,7 +20,7 @@ function GameDetail() {
 		history.push("/");
 	}
 
-	const url = API + "/" + slug;
+	const url = API + "/" + slug + KEY;
 
 	useEffect(
 		function () {
@@ -64,7 +65,7 @@ function GameDetail() {
 			<div>
 				<Badge variant="primary">{game.rating}</Badge>
 			</div>
-			<ScreenshotSlider screenshots={game.screenshots} />
+			<ScreenshotSlider screenshots={game.tags} />
 		</div>
 	);
 }

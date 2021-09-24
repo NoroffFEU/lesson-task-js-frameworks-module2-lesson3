@@ -6,8 +6,8 @@ function ScreenshotSlider({ screenshots }) {
 		<Carousel>
 			{screenshots.map(function (screenshot, index) {
 				return (
-					<Carousel.Item key={screenshot.image}>
-						<img className="d-block w-100" src={screenshot.image} alt={`screenshot ${index}`} />
+					<Carousel.Item key={screenshot.image_background}>
+						<img className="d-block w-100" src={screenshot.image_background} alt={`screenshot ${index}`} />
 					</Carousel.Item>
 				);
 			})}
