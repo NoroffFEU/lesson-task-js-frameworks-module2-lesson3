@@ -5,9 +5,10 @@ Build on your answer from Lesson Task 2 for this task.
 The base API URL:
 
 ```
-https://t9jt3myad3.execute-api.eu-west-2.amazonaws.com/api/old-games
+https://api.rawg.io/api/games
 ```
 
+Get your own API key for the RAWG API at [https://rawg.io/apidocs)](https://rawg.io/apidocs)
 ---
 
 Using React Router create 2 paths:
