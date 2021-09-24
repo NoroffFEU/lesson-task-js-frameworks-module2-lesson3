@@ -8,7 +8,7 @@ The base API URL:
 https://api.rawg.io/api/games
 ```
 
-Get your own API key for the RAWG API at (https://rawg.io/apidocs)[https://rawg.io/apidocs], or use `?key=54582cd735a340b89b17702eae51578b`
+Get your own API key for the RAWG API at [https://rawg.io/apidocs)](https://rawg.io/apidocs)
 
 ---
 
