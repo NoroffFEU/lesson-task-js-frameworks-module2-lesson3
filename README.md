@@ -9,6 +9,7 @@ https://api.rawg.io/api/games
 ```
 
 Get your own API key for the RAWG API at [https://rawg.io/apidocs)](https://rawg.io/apidocs)
+
 ---
 
 Using React Router create 2 paths:
