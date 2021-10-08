@@ -5,11 +5,8 @@ Build on your answer from Lesson Task 2 for this task.
 The base API URL:
 
 ```
-https://api.rawg.io/api/games
+https://noroff.herokuapp.com/v1/old-games
 ```
-
-Get your own API key for the RAWG API at [https://rawg.io/apidocs](https://rawg.io/apidocs)
-
 ---
 
 Using React Router create 2 paths:
