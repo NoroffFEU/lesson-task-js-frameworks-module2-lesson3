@@ -5,7 +5,7 @@ Build on your answer from Lesson Task 2 for this task.
 The base API URL:
 
 ```
-https://noroff.herokuapp.com/v1/old-games
+https://api.noroff.dev/api/v1/old-games
 ```
 ---
 
